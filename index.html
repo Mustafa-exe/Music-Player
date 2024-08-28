@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>somehow turn into spotify pleaseeeeeeeeeeeeeeee
+        
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div id="player">
+        <div id="player-header">
+            <h1>Music Player
+                
+            </h1>
+            <button id="themeToggle">🌙</button>
+        </div>
+        <div id="trackInfo">
+            <p id="trackTitle">Track Title</p>
+            <p id="trackArtist">Artist Name</p>
+        </div>
+        
+        <audio id="audio" preload="auto">
+            Your browser does not support the audio element.
+        </audio>
+        <div id="controls">
+            <button id="prev">⏮️</button>
+            
+            <button id="playPause" class="fas fa-pause"></button>
+                       
+            <button id="next">⏭️</button>
+            <button id="shuffle">🔀</button>
+            <button id="homeBtn" style="display:none;">Home</button>
+
+        </div>
+        <input type="range" id="seekBar" min="0" max="100" value="0">
+        <div class="volume-controls">
+            <button id="volume">🔊</button>
+            <input type="range" id="volumeBar" min="0" max="100" value="100">
+        </div>
+        <div id="search">
+            <input type="text" id="searchInput" placeholder="Search track...">
+            <button id="searchBtn">🔍</button>
+        </div>
+        <div id="trackList">  <div class="audio-container">
+            <p class="track-info">Track 1</p>
+            <audio src="sapientdream - Pastlives (lyrics).mp3"></audio>
+        </div>
+        <div id="trackList">  <div class="audio-container">
+            <p class="track-info">Track 1</p>
+            <audio src="Ember Island - Umbrella.mp3"></audio>
+        </div>
+
+            <div class="audio-container">
+                <p class="track-info">Track 1</p>
+                <audio src="Zariya - Khoya (feat. Aseem) [Official Audio].mp3"></audio>
+            </div>
+            
+            <div class="audio-container">
+                <p class="track-info">Track 2</p>
+                <audio src="La Haasil - Sunny Khan Durrani  Urdu Rap.mp3"></audio>
+            </div>
+            <div class="audio-container">
+                <p class="track-info">Track 2</p>
+                <audio src="Jon Bellion - All Time Low (Official Music Video).mp3"></audio>
+            </div>
+        </div>
+        
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
